@@ -278,6 +278,14 @@ footer{
   opacity: 1;
 }
 
+@media (width > 576px) {
+ 
+
+  .footer__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 @media (width > 768px) {
   nav {
     padding: 2rem 1rem;
